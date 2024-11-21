@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+div {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+}
+@media screen and (max-width: 600px) {
+  div {
+    display: none;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    transition: all 1s;
+  }
+  div:hover {
+    height: 300px;
+  }
+}
