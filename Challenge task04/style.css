@@ -49,20 +49,20 @@ body {
   width: 30px;
   height: 150px;
   background-color: aliceblue;
-  animation: square 3s ease-in-out infinite;
+  animation: square 1s ease-in-out infinite;
 }
 .container .container__square div:nth-child(1) {
-  animation-delay: 0.5s;
+  animation-delay: 0s;
 }
 .container .container__square div:nth-child(2) {
-  animation-delay: 1s;
+  animation-delay: 0.1s;
 }
 .container .container__square div:nth-child(3) {
-  animation-delay: 1.5s;
+  animation-delay: 0.2s;
 }
 .container .container__square div:nth-child(4) {
-  animation-delay: 2s;
+  animation-delay: 0.3s;
 }
 .container .container__square div:nth-child(5) {
-  animation-delay: 2.5s;
+  animation-delay: 0.4s;
 }
