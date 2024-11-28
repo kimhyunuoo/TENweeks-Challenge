@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://kit.fontawesome.com/51ee0fa9b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="container">
+      <!-- 앞면 / 플레이어 리스트 -->
+      <div class="container__front">
+        <!-- HEADER / ICONS -->
+        <div class="front__top">
+          <div class="top__icon">
+            <i class="fa-solid fa-arrow-left fa-xl"></i>
+          </div>
+          <div class="top__icon">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+          </div>
+        </div>
+        <!-- HEADER / IMAGE&TEXT GROUP -->
+        <div class="front__textGroup">
+          <div class="textGroup__image"></div>
+          <div class="textGroup__title">Artist G-DRAGON</div>
+          <div class="textGroup__name">K-POP, Hip-Hop</div>
+        </div>
+        <!-- HEADER / BTN GROUP -->
+        <div class="front__btnGroup">
+          <div class="btn__black">
+            <span>
+              <i class="fa-solid fa-play fa-lg" style="color: #fff"></i>
+            </span>
+            <span>Play</span>
+          </div>
+          <div class="btn__random">
+            <span>
+              <i class="fa-solid fa-shuffle fa-lg" style="color: #000000"></i>
+            </span>
+            <span>Shuffle</span>
+          </div>
+        </div>
+        <!-- HEADER / LIST -->
+        <div class="front__list">
+          <div class="list__items">
+            <div class="item01">
+              <div class="item__image"></div>
+              <div class="item__text">
+                <div class="text__title">G-DRAGON</div>
+                <div class="text__name">POWER - Single</div>
+              </div>
+              <div class="item__icon">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+            <div class="item02">
+              <div class="item__image"></div>
+              <div class="item__text">
+                <div class="text__title">G-DRAGON</div>
+                <div class="text__name">무제 2014</div>
+              </div>
+              <div class="item__icon">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+            <div class="item03">
+              <div class="item__image"></div>
+              <div class="item__text">
+                <div class="text__title">G-DRAGON</div>
+                <div class="text__name">COUP D'ETAT</div>
+              </div>
+              <div class="item__icon">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+            <div class="item04">
+              <div class="item__image"></div>
+              <div class="item__text">
+                <div class="text__title">G-DRAGON</div>
+                <div class="text__name">HeartBreaker</div>
+              </div>
+              <div class="item__icon">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- HEADER / PLAYER BAR -->
+        <div class="playBar">
+          <div class="playBar__text">
+            <div class="playBar__title">POWER</div>
+            <div class="playBar__name">G-DRAGON - POWER Single</div>
+          </div>
+          <div class="playBar__btn">
+            <i
+              class="playbtn fa-solid fa-backward fa-sm"
+              style="color: #ffffff"
+            ></i>
+            <i
+              class="playbtn fa-solid fa-pause fa-2xl"
+              style="color: #ffffff"
+            ></i>
+            <i
+              class="playbtn fa-solid fa-forward fa-sm"
+              style="color: #ffffff"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <!-- 뒷면에 사진이 크게 들어가는 플레이어 쪽 -->
+      <div class="container__back">
+        <!-- BACK TOP / ICON -->
+        <div class="back__top">
+          <div class="top__icon">
+            <i class="fa-solid fa-arrow-left fa-xl"></i>
+          </div>
+          <div class="top__icon">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <!-- BACK FULL MAIN IMAGE -->
+        <div class="back__image">
+          <div class="image__full"></div>
+        </div>
+        <!-- BACK TEXT GROUP -->
+        <div class="back__textGroup">
+          <div class="backText__title">POWER</div>
+          <div class="backText__name">G-DRAGON - POWER Single</div>
+        </div>
+        <!-- BACK / RANGE BAR SECTION -->
+        <div class="back__time">
+          <div>0:00</div>
+          <div>3:14</div>
+        </div>
+        <div class="back__range">
+          <input type="range" min="1" max="240" />
+        </div>
+        <!-- BACK / PLAYER ICON SECTION -->
+        <div class="back__playerIcon">
+          <div>
+            <i class="fa-solid fa-repeat fa-lg" style="color: #000000"></i>
+          </div>
+          <div>
+            <i
+              class="fa-solid fa-backward-step fa-lg"
+              style="color: #000000"
+            ></i>
+          </div>
+          <div class="playerIcon__circle">
+            <i
+              class="backPlay fa-solid fa-play fa-2xl"
+              style="color: #ffffff"
+            ></i>
+          </div>
+          <div>
+            <i
+              class="fa-solid fa-forward-step fa-lg"
+              style="color: #000000"
+            ></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-shuffle fa-lg" style="color: #000000"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
